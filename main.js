@@ -47,7 +47,7 @@ function draw(){
   // ベースカラー設定
   let baseColor = 'hsl(' + hue + ', 80%, 50%)';
   // 正解の明るさ
-  let lightness = Math.max(75 - point,53);
+  let lightness = Math.max(75 - point,55);
   // 正解カラー設定
   let answerColor ='hsl(' + hue + ', 80%,' + lightness + '%)'
 
