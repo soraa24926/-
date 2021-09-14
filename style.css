@@ -1,0 +1,36 @@
+canvas {
+  display: block;
+  /* Replayまでの空間作り */
+  margin: 0 auto 12px;
+}
+
+#replay {
+  display: block;
+  /* 枠外 */
+  margin: 0 auto;
+  width: 200px;
+  /* 枠内 */
+  padding: 7px;
+  background: #0af;
+  /* 角の丸み */
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+a {
+  /* リンクが飛ぶためできる下線の消去 */
+  text-decoration: none;
+}
+/* Replay隠し */
+#replay.hidden {
+  display: none;
+}
+
+footer{
+  margin-top: 15px;
+  /* 文字置く左右 */
+  text-align: right;
+  font-size: 15px;
+}
